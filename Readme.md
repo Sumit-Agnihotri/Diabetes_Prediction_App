@@ -46,23 +46,3 @@ It’s designed to be **simple, clean, and trustworthy** — even for users with
 | Data Handling    | pandas, numpy          |
 | Model Saving     | pickle                 |
 | Deployment       | Render.com / HuggingFace |
-
----
-
-## 🚀 Run the App Locally
-
-```bash
-# Step 1: Clone this repository
-git clone https://github.com/yourusername/diabetes-predictor
-
-# Step 2: Navigate into the folder
-cd diabetes-predictor
-
-# Step 3: Install dependencies
-pip install -r requirements.txt
-
-# Step 4: Train model (optional, already saved as model.pkl)
-python train_model.py
-
-# Step 5: Run the app
-streamlit run app.py
